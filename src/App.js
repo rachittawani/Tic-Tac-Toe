@@ -6,7 +6,7 @@ import Footer from './Footer';
 import Clear from './Clear';
 
 export default function App(props) {
-    const [data, setdata] = React.useState({
+    var [data, setdata] = React.useState({
         winner: {
             name: undefined,
             indexes: []
@@ -53,7 +53,6 @@ export default function App(props) {
                     else{
                         return prevData
                     }
-                    
                 })    
             }
         />
